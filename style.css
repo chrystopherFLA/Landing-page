@@ -1,109 +1,53 @@
-.bg-hero,.footer{
-    
-    color:white;
-    margin: 0;
-    background-color: #1f2937;
-    flex-wrap: wrap;
-}
-.bg-hero{
-    display: flex;
-    padding-left: 10em;
-    padding-bottom: 5em;
-    padding-right: 10em;
-    
-}
-.head{
-    padding-right: 10em;
-    padding-left: 10em;
-    padding-bottom: 5em;
-    color:white;
-    background-color: #1f2937;
-    display: flex;
-    flex-wrap: wrap;
-    margin:0px;
-}
-.logo{
-    
-}
-.header-link{
-    display: flex;
-    margin-left: auto;
-    gap: 10px;
-}
-.text{
-    
-    
-}
-.main{
-    
-}
-.header-text{
-    
-    
-}
-.button{
-    flex-wrap:wrap;
-    
-}
-.text .image{
-    flex:1;
-}
-.image{
-    justify-items:flex-start;
-    flex: 2 1 auto;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-.information-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    color: #333;
+}
 
+button {
+    background-color: #5c67f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+button:hover {
+    background-color: #4f5bc3;
 }
-.bg-quote{
-    display: flex;
-    flex-direction: column;
-    background-color:#e5e7eb;
-    justify-items: center;
-}
-.bg-quote > h4{
-    align-self:flex-end ;
-}
-.quote-text{
-    color: #1f2937;
-    padding: auto;
-    font-size:36px ;
-    font-style: italic;
-    font-weight: lighter;
-    align-self: center;
-    
-}
-ul{
-    display:flex;
-    list-style-type: none;
-}
-li{
-    text-align: center;
 
-}
-.sign{
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #3882f6;
-    border-style: solid;
-    border: #3882f6;
-    border-radius: 10px;
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
 
+    button {
+        width: 100%;
+        padding: 15px;
+    }
 }
-.sign > button{
-    margin-right:30px ;
-    margin-left: auto;
 
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
 
-}
-.sign > p{
-    align-self: flex-end;
+    h1 {
+        font-size: 24px;
+    }
 }
